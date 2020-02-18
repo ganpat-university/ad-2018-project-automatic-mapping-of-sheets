@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ADproject.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+ <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: linear-gradient(to bottom,#f10d0d 0%,#0c5d9b 100%);
+  font-family:'Berlin Sans FB';
+}
+
+li {
+  float: left;
+
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+li a:hover {
+  background-color: #111;
+}
+
+
+    footer {
+        font-family: 'Berlin Sans FB';
+        margin-top: 300px;
+        padding: 14px 16px;
+        color: white;
+        background-image: linear-gradient(to bottom,#0c5d9b 0%,#f10d0d 100%);
+    }
+</style>   
+</head>
+<body>
+    <form id="form1" runat="server">
+        <ul>
+            <li><a href="WebForm1.aspx">Student</a></li>
+            <li><a href="WebForm2.aspx">NPTEL</a></li>
+            <li><a href="WebForm3.aspx">Student Result</a></li>
+        </ul>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer></footer>
+    </form>
+</body>
+</html>
