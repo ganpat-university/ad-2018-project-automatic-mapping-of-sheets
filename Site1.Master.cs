@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace ADproject
+namespace ADPROJECT1
 {
     public partial class Site1 : System.Web.UI.MasterPage
     {
