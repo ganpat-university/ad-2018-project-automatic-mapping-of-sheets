@@ -1,6 +1,4 @@
 <h1>Automatic Mapping of Sheets</h1>
-
-<hr/>
   
 Abstract : 
 
@@ -14,7 +12,7 @@ Software Requirments:-
 
 ```Microsoft Visual Code.(Version 2019) {Software}. ```
 
-Contributers :
+Project Contributers :
 
 (1.) [Jay Patel](https://github.com/jaytpatel18)
 
